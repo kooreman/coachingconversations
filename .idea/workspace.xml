@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a48ef5-93fe-4b55-8e92-6114de9978d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index_nl.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/index_en.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/coachingconversations.less" afterPath="$PROJECT_DIR$/app/styles/coachingconversations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/doon.js" afterPath="$PROJECT_DIR$/app/scripts/doon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="coachingconversations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +10,7 @@
     <file path="/a.dummy" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245854404" ignored="false" />
     <file path="$PROJECT_DIR$/test/bower.json" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245910711" ignored="false" />
     <file path="/CNAME" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245924269" ignored="false" />
-    <file path="/index.html" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424250901526" ignored="false" />
+    <file path="/index.html" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424251159679" ignored="false" />
     <file path="/coachingconversations.less" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424250249984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,8 +104,13 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="128" column="134" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.8959044">
-                  <folding />
+                <state line="596" column="0" selection-start="30210" selection-end="30210" vertical-scroll-proportion="0.334471">
+                  <folding>
+                    <marker date="1424251164000" expanded="true" signature="30466:30770" placeholder="..." />
+                    <marker date="1424251164000" expanded="true" signature="30530:30741" placeholder="..." />
+                    <marker date="1424251164000" expanded="true" signature="30810:32680" placeholder="..." />
+                    <marker date="1424251164000" expanded="true" signature="30885:32652" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -575,8 +574,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="134" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.8959044">
-          <folding />
+        <state line="596" column="0" selection-start="30210" selection-end="30210" vertical-scroll-proportion="0.334471">
+          <folding>
+            <marker date="1424251164000" expanded="true" signature="30466:30770" placeholder="..." />
+            <marker date="1424251164000" expanded="true" signature="30530:30741" placeholder="..." />
+            <marker date="1424251164000" expanded="true" signature="30810:32680" placeholder="..." />
+            <marker date="1424251164000" expanded="true" signature="30885:32652" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
