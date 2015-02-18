@@ -1,0 +1,22 @@
+Hi!
+
+
+grunt file plaatst de dist map in ../coachingconversations-dist
+Deze laatste kan ingechecked worden naar gh-pages
+
+
+Commando's om (nu) van coachingconversations/master te komen tot coachingconversations/gh-pages
+
+
+git clone https://github.com/brugsel/coachingconversations.git
+git clone https://github.com/brugsel/coachingconversations.git coachingconversations-dist
+
+cd coachingconversations-dist
+git checkout gh-pages ; git pull
+
+cd ../coachingconversations
+git pull
+grunt --force
+
+cd ../coachingconversations-dist/
+cp ../coachingconversations/CNAME . ; git add . --all ; git commit -a -m "dist" ; git push
