@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a48ef5-93fe-4b55-8e92-6114de9978d0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/coachingconversations.less" afterPath="$PROJECT_DIR$/app/styles/coachingconversations.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coachingconversations.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245387782" ignored="false" />
-    <file path="/a.dummy" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245854404" ignored="false" />
+    <file path="/a.dummy" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424251310111" ignored="false" />
     <file path="$PROJECT_DIR$/test/bower.json" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245910711" ignored="false" />
     <file path="/CNAME" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424245924269" ignored="false" />
-    <file path="/index.html" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424251159679" ignored="false" />
+    <file path="/index.html" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424251685802" ignored="false" />
     <file path="/coachingconversations.less" changelist="26a48ef5-93fe-4b55-8e92-6114de9978d0" time="1424250249984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,16 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="596" column="0" selection-start="30210" selection-end="30210" vertical-scroll-proportion="0.334471">
-                  <folding>
-                    <marker date="1424251164000" expanded="true" signature="30466:30770" placeholder="..." />
-                    <marker date="1424251164000" expanded="true" signature="30530:30741" placeholder="..." />
-                    <marker date="1424251164000" expanded="true" signature="30810:32680" placeholder="..." />
-                    <marker date="1424251164000" expanded="true" signature="30885:32652" placeholder="..." />
-                  </folding>
+                <state line="656" column="0" selection-start="33633" selection-end="33633" vertical-scroll-proportion="-133.71428">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -127,16 +126,16 @@
           <file leaf-file-name="coachingconversations.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/styles/coachingconversations.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="468" column="18" selection-start="8412" selection-end="8412" vertical-scroll-proportion="-7.8431373">
+                <state line="470" column="19" selection-start="8450" selection-end="8450" vertical-scroll-proportion="-6.6666665">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="doon.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="doon.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scripts/doon.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="24" selection-start="227" selection-end="241" vertical-scroll-proportion="0.0">
+                <state line="27" column="54" selection-start="643" selection-end="643" vertical-scroll-proportion="0.6008902">
                   <folding />
                 </state>
               </provider>
@@ -176,7 +175,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="490" column="48" selection-start="24170" selection-end="24170" vertical-scroll-proportion="0.13787879">
+                <state line="490" column="48" selection-start="24205" selection-end="24205" vertical-scroll-proportion="0.13787879">
                   <folding />
                 </state>
               </provider>
@@ -260,6 +259,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coachingconversations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/doon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="227" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="36" selection-start="360" selection-end="360" vertical-scroll-proportion="-8.4">
@@ -567,20 +613,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/coachingconversations.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="468" column="18" selection-start="8412" selection-end="8412" vertical-scroll-proportion="-7.8431373">
+        <state line="470" column="19" selection-start="8450" selection-end="8450" vertical-scroll-proportion="-6.6666665">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="596" column="0" selection-start="30210" selection-end="30210" vertical-scroll-proportion="0.334471">
-          <folding>
-            <marker date="1424251164000" expanded="true" signature="30466:30770" placeholder="..." />
-            <marker date="1424251164000" expanded="true" signature="30530:30741" placeholder="..." />
-            <marker date="1424251164000" expanded="true" signature="30810:32680" placeholder="..." />
-            <marker date="1424251164000" expanded="true" signature="30885:32652" placeholder="..." />
-          </folding>
+        <state line="656" column="0" selection-start="33633" selection-end="33633" vertical-scroll-proportion="-133.71428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/doon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="54" selection-start="643" selection-end="643" vertical-scroll-proportion="0.6008902">
+          <folding />
         </state>
       </provider>
     </entry>
