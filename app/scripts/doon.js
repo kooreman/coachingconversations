@@ -17,7 +17,7 @@
     $('#contactform').submit(function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//formspree.io/info@coachingconversations.com',
+            url: '//formspree.io/info@coachingconversations.nl',
             method: 'POST',
             data: {
                 'naam': $('#naam').val(),

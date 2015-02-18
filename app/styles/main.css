@@ -7608,16 +7608,23 @@ h6 {
 #coachingconversations #personquote .quote {
   font-size: 2em;
 }
-#coachingconversations #proces {
+#coachingconversations #proces,
+#coachingconversations .propositions {
   margin-bottom: 20px;
   text-align: center;
 }
-#coachingconversations #proces .row {
+#coachingconversations #proces .row,
+#coachingconversations .propositions .row {
   padding-bottom: 30px;
 }
-#coachingconversations #proces h2 {
+#coachingconversations #proces h2,
+#coachingconversations .propositions h2 {
   margin-bottom: 0px;
   padding-bottom: 20px;
+}
+#coachingconversations #proces .exampleimg,
+#coachingconversations .propositions .exampleimg {
+  max-width: 500px;
 }
 #coachingconversations #cta2 {
   padding: 30px 0px;
@@ -7676,7 +7683,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-a .photo-a {
-  background: url("/images/coachingconversations-b.jpg");
+  background: url("/images/dayinthelife-b.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7700,7 +7707,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-b .photo-a {
-  background: url("/images/coachingconversations-c.jpg");
+  background: url("/images/dayinthelife-c.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
