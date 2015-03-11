@@ -7461,7 +7461,7 @@ h6 {
   margin-bottom: 0px;
 }
 #coachingconversations #header {
-  background: url("/images/809027_Low.jpg") no-repeat center center scroll;
+  background: url("../images/809027_Low.jpg") no-repeat center center scroll;
   background-size: cover;
   overflow: hidden;
   width: 100%;
@@ -7631,7 +7631,7 @@ h6 {
   padding: 30px 0px;
 }
 #coachingconversations .cta .bg-levels {
-  background: url("images/levels.png");
+  background: url("../images/levels.png");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7681,7 +7681,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-a .photo-a {
-  background: url("images/bg1.jpg");
+  background: url("../images/bg1.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7705,7 +7705,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-b .photo-a {
-  background: url("images/bg2.jpg");
+  background: url("../images/bg2.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
