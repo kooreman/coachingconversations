@@ -37,7 +37,7 @@
 
 // Basics of a navbar
 @navbar-height:                    69px;
-@navbar-default-color:             @doon-purple;
+@navbar-default-color:             @doon-orange;
 @navbar-default-bg:                rgba(255,255,255,0.9);
 
 // Navbar links
@@ -74,6 +74,11 @@
 
 }
 
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8em;
+}
 
 .btn-orange {
   background-color: @doon-orange !important;
@@ -122,8 +127,8 @@ h3, h4, h5, h6 {
 }
 
 // Colours
-@doon-purple:             #7F348A;
-@doon-orange:             #F19106;
+@doon-purple:             #F19106;
+@doon-orange:             #3578f2;
 @doon-grey:               #C7C5C4;
 @doon-darkgrey:           #262626;
 @doon-dark:               #262626;
@@ -243,6 +248,7 @@ h3, h4, h5, h6 {
        h3 {
          color: @doon-orange;
          font-weight: 700;
+
        }
      }
 
@@ -398,6 +404,12 @@ h3, h4, h5, h6 {
     }
 
 
+    .blue {
+      color: @doon-orange;
+    }
+    .protxt {
+      font-size: 1.1em;
+    }
 
     h2 {
       margin-bottom: 0px;
@@ -406,7 +418,7 @@ h3, h4, h5, h6 {
   }
 
 
-  #personquote {
+  .personquote {
     padding-bottom: 30px;
     background-color: @doon-grey + 20;
     position: inherit;
@@ -466,10 +478,37 @@ h3, h4, h5, h6 {
       padding-bottom: 20px;
     }
 
+    p {
+      text-align: left;
+    }
+    .center {
+      text-align: center;
+    }
+
+    li {
+      list-style-type: none;
+    }
 
     .exampleimg {
       width: 600px;
     }
+
+    .awareness {
+      color: @doon-purple;
+    }
+
+    .fundamentals {
+      color: @doon-orange;
+    }
+
+    .intermediate {
+        color: #3cb881;
+    }
+
+    .advanced {
+      color: #7f348a;
+    }
+
   }
 
 
@@ -479,21 +518,38 @@ h3, h4, h5, h6 {
 
 
   .cta{
-    background-color: @doon-purple;
-    text-align: center;
+    .bg-levels {
 
-    padding: 30px 0px;
+      background: url("/images/levels.png");
+      background-attachment: fixed;
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+      background-size: cover;
 
-    p {
-      color: #fff;
-    }
-    h2 {
-      padding-bottom: 20px;
+      height: 280px;
+      margin: 0 0;
+      width: 100%;
+      position: relative;
+
+
     }
 
-    .row {
-      padding-bottom: 50px;
-    }
+//
+//    background-color: @doon-purple;
+//    text-align: center;
+//
+//    padding: 30px 0px;
+//
+//    p {
+//      color: #fff;
+//    }
+//    h2 {
+//      padding-bottom: 20px;
+//    }
+//
+//    .row {
+//      padding-bottom: 50px;
+//    }
 
   }
 
@@ -549,7 +605,7 @@ h3, h4, h5, h6 {
 
     .photo-a {
 
-      background: url("/images/dayinthelife-b.jpg");
+      background: url("/images/bg1.jpg");
       background-attachment: fixed;
       background-position: 50% 0;
       background-repeat: no-repeat;
@@ -580,7 +636,7 @@ h3, h4, h5, h6 {
 
     .photo-a {
 
-      background: url("/images/dayinthelife-c.jpg");
+      background: url("/images/bg2.jpg");
       background-attachment: fixed;
       background-position: 50% 0;
       background-repeat: no-repeat;
