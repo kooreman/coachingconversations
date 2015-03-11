@@ -3904,18 +3904,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: rgba(238, 238, 238, 0.9);
 }
 .navbar-default .navbar-brand {
-  color: #f19106;
+  color: #3578f2;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #bf7305;
+  color: #0f5be5;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #f19106;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #f19106;
+  color: #3578f2;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3925,7 +3925,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #3578f2;
+  color: #f19106;
   background-color: none;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -3952,11 +3952,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: none;
-  color: #3578f2;
+  color: #f19106;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #f19106;
+    color: #3578f2;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -3966,7 +3966,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #3578f2;
+    color: #f19106;
     background-color: none;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -3977,7 +3977,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #f19106;
+  color: #3578f2;
 }
 .navbar-default .navbar-link:hover {
   color: #333333;
@@ -7357,6 +7357,9 @@ h6 {
   line-height: 1.42857143;
   font-weight: 400;
 }
+#coachingconversations .logo {
+  width: 180px;
+}
 #coachingconversations .navbar {
   z-index: 998 !important;
 }
@@ -7458,52 +7461,13 @@ h6 {
   margin-bottom: 0px;
 }
 #coachingconversations #header {
+  background: url("/images/809027_Low.jpg") no-repeat center center scroll;
+  background-size: cover;
   overflow: hidden;
   width: 100%;
   min-height: 100%;
   height: 740px;
   position: relative;
-}
-#coachingconversations #header .hugo-slogan {
-  width: 200px;
-  position: absolute;
-  left: 330px;
-  top: 200px;
-  font-size: 1em;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  color: #fff;
-}
-#coachingconversations #header .hugo-slogan .who {
-  font-size: 0.7em;
-}
-@media (max-width: 991px) {
-  #coachingconversations #header .hugo-slogan {
-    left: 230px;
-  }
-}
-@media (max-width: 767px) {
-  #coachingconversations #header .hugo-slogan {
-    display: none;
-  }
-}
-#coachingconversations #header .hugo {
-  position: absolute;
-  left: 100px;
-  bottom: 0px;
-}
-@media (max-width: 991px) {
-  #coachingconversations #header .hugo {
-    left: 0px;
-  }
-}
-@media (max-width: 767px) {
-  #coachingconversations #header .hugo {
-    bottom: 0px;
-    left: -70px;
-  }
-  #coachingconversations #header .hugo img {
-    width: 250px;
-  }
 }
 @media (max-width: 767px) {
   #coachingconversations #header {
@@ -7517,20 +7481,18 @@ h6 {
     font-size: 1em;
   }
 }
-#coachingconversations #header .bg {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+#coachingconversations #header .headerbg {
+  background-color: #444;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
   /* For IE8 and earlier */
-  background-color: #3578f2;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  padding: 10px;
+  color: #fff;
 }
 #coachingconversations #header h1 {
   color: #FFF !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  opacity: 1;
 }
 #coachingconversations #header h4 {
   color: #555 !important;
@@ -7669,7 +7631,7 @@ h6 {
   padding: 30px 0px;
 }
 #coachingconversations .cta .bg-levels {
-  background: url("/images/levels.png");
+  background: url("images/levels.png");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7719,7 +7681,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-a .photo-a {
-  background: url("/images/bg1.jpg");
+  background: url("images/bg1.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -7743,7 +7705,7 @@ h6 {
   }
 }
 #coachingconversations #coachingconversations-photo-b .photo-a {
-  background: url("/images/bg2.jpg");
+  background: url("images/bg2.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;

@@ -37,17 +37,18 @@
 
 // Basics of a navbar
 @navbar-height:                    69px;
-@navbar-default-color:             @doon-orange;
+@navbar-default-color:             @doon-purple;
 @navbar-default-bg:                rgba(255,255,255,0.9);
 
 // Navbar links
-@navbar-default-link-color:                @doon-purple;
+@navbar-default-link-color:                @doon-orange;
 @navbar-default-link-hover-color:          #333;
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         @doon-orange;
+@navbar-default-link-active-color:         @doon-purple;
 @navbar-default-link-active-bg:            none;
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
+
 
 .navbar {
   font-family: @font-family-base;
@@ -138,6 +139,10 @@ h3, h4, h5, h6 {
 
 #coachingconversations {
 
+
+  .logo {
+    width: 180px;
+  }
 
   .navbar {
     z-index: 998 !important;
@@ -269,9 +274,9 @@ h3, h4, h5, h6 {
 
 
   #header {
-//    background: url("@{image-root}/top_bg_soft.jpg") no-repeat center center scroll;
-//    background-size: cover;
-//    background-attachment: fixed;
+    background: url("@{image-root}/809027_Low.jpg") no-repeat center center scroll;
+    background-size: cover;
+    //    background-attachment: fixed;
     overflow: hidden;
     width: 100%;
     min-height: 100%;
@@ -279,51 +284,7 @@ h3, h4, h5, h6 {
 
     position: relative;
 
-    .hugo-slogan {
-      width: 200px;
 
-      position: absolute;
-      left: 330px;
-      top: 200px;
-
-      font-size: 1em;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-      color: #fff;
-
-      .who {
-        font-size: 0.7em;
-      }
-
-
-      @media (max-width: @screen-sm-max) {
-        left: 230px;
-      }
-
-      @media (max-width: @screen-xs-max) {
-        display: none;
-      }
-
-
-    }
-
-    .hugo {
-      position: absolute;
-      left: 100px;
-      bottom: 0px;
-
-      @media (max-width: @screen-sm-max) {
-        left: 0px;
-      }
-      @media (max-width: @screen-xs-max) {
-        bottom: -00px;
-        left: -70px;
-
-        img {
-          width: 250px;
-        }
-
-      }
-    }
 
     @media (max-width: @screen-xs-max) {
       height: 600px;
@@ -340,21 +301,33 @@ h3, h4, h5, h6 {
 
 
 
-    .bg {
-      opacity: 0.5;
-      filter: alpha(opacity=50); /* For IE8 and earlier */
-      background-color: (@doon-orange);
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0px;
-      left: 0px;
 
+//
+//    .bg {
+//      opacity: 0.5;
+//      filter: alpha(opacity=50); /* For IE8 and earlier */
+//      background-color: (@doon-orange);
+//      width: 100%;
+//      height: 100%;
+//      position: absolute;
+//      top: 0px;
+//      left: 0px;
+//
+//    }
+
+    .headerbg {
+
+      background-color: #444;
+      opacity: 0.8;
+      filter: alpha(opacity=80); /* For IE8 and earlier */
+      padding: 10px;
+
+      color: #fff;
     }
-
     h1 {
       color: #FFF !important;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+      opacity: 1;
     }
     h4 {
       color: #555 !important;
@@ -520,7 +493,7 @@ h3, h4, h5, h6 {
   .cta{
     .bg-levels {
 
-      background: url("/images/levels.png");
+      background: url("images/levels.png");
       background-attachment: fixed;
       background-position: 50% 0;
       background-repeat: no-repeat;
@@ -605,7 +578,7 @@ h3, h4, h5, h6 {
 
     .photo-a {
 
-      background: url("/images/bg1.jpg");
+      background: url("images/bg1.jpg");
       background-attachment: fixed;
       background-position: 50% 0;
       background-repeat: no-repeat;
@@ -636,7 +609,7 @@ h3, h4, h5, h6 {
 
     .photo-a {
 
-      background: url("/images/bg2.jpg");
+      background: url("images/bg2.jpg");
       background-attachment: fixed;
       background-position: 50% 0;
       background-repeat: no-repeat;
