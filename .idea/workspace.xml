@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a48ef5-93fe-4b55-8e92-6114de9978d0" name="Default" comment="n.a.v. mail">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26a48ef5-93fe-4b55-8e92-6114de9978d0" name="Default" comment="n.a.v. mail" />
     <list id="2176563b-ad8f-44d8-a5c4-d92435c53368" name="New changelist" comment="" />
     <ignored path="coachingconversations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="519" column="65" selection-start="26383" selection-end="26383" vertical-scroll-proportion="0.84126985">
+            <state line="519" column="65" selection-start="26383" selection-end="26383" vertical-scroll-proportion="2.079365">
               <folding />
             </state>
           </provider>
@@ -511,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="65" selection-start="26383" selection-end="26383" vertical-scroll-proportion="0.84126985">
+        <state line="519" column="65" selection-start="26383" selection-end="26383" vertical-scroll-proportion="2.079365">
           <folding />
         </state>
       </provider>
